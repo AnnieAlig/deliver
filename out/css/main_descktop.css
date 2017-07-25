@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.block2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #9b9999;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 50px; }
+
+.portfolio {
+  background-color: #efefef;
+  height: 290px; }
+
+.portfolio_wrapper, .call-to-action_wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+.portfolio_title, .call-to-action_title {
+  padding-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666262;
+  margin-bottom: 20px; }
+
+.portfolio_intro {
+  margin-bottom: 40px;
+  padding: 0 140px; }
+
+.portfolio_works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 110px; }
+
+.portfolio_works_icons, .portfolio_works_arrows, .portfolio_works_theme {
+  width: 290px; }
+
+.portfolio_works img {
+  width: 100%;
+  margin-bottom: 12px; }
+
+.portfolio_works h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  color: #666262; }
+
+.call-to-action {
+  background-color: #fefefe;
+  margin-top: 110px; }
+
+.call-to-action_wrapper {
+  border-top: 2px solid #efefef; }
+
+.call-to-action_intro {
+  padding: 0 140px; }
+
+.call-to-action_button {
+  margin: 22px auto 50px;
+  background-color: #87b672;
+  color: #ffffff;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  padding: 14px 16px;
+  border: none;
+  font-family: inherit; }
+  .call-to-action_button:hover {
+    box-shadow: 1px 1px 2px 0 #666262;
+    cursor: pointer; }

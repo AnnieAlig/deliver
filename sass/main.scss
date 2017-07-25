@@ -1,0 +1,104 @@
+@import 'fonts';
+@import 'variables';
+@import 'reset';
+
+.block2{
+	font-family: $Raleway;
+	font-size: $font_sm;
+	color: $light_gray;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 50px;
+}
+.portfolio{
+	background-color: $light_gray_bg;
+	height: 290px;
+}
+.portfolio_wrapper, .call-to-action_wrapper{
+	max-width: 960px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.portfolio_title, .call-to-action_title{
+	padding-top: 40px;
+	font-size: $font_lg;
+	font-weight: $font_semibold;
+	text-transform: uppercase;
+	color: $dark_gray;
+	margin-bottom: 20px;
+}
+.portfolio_intro{
+	margin-bottom: 20px;
+	padding: 0 10px;
+	@media (min-width: 980px){
+		margin-bottom: 40px;
+		padding: 0 140px;
+	}
+}
+
+.portfolio_works{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	top: 15px;
+	@media (min-width: 870px){
+		justify-content: space-between;
+		top: -5px;
+	}
+}
+.portfolio_works_icons, .portfolio_works_arrows, .portfolio_works_theme{
+	width: 290px;
+}
+
+.portfolio_works img{
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.portfolio_works h3{
+	text-transform: uppercase;
+	font-weight: $font_semibold;
+	font-size: $font_md;
+	color: $dark_gray;
+	margin-bottom: 10px;
+}
+
+//call-to-action section//
+
+.call-to-action{
+	background-color: $white_bg;
+	margin-top: 590px;
+	@media (min-width: 480px){
+		margin-top: 550px;
+	}
+	@media (min-width: 580px){
+		margin-top: 330px;
+	}
+	@media (min-width: 870px){
+		margin-top: 110px;
+	}
+}
+.call-to-action_wrapper{	
+	border-top: 2px solid $light_gray_bg;
+}
+.call-to-action_intro{
+	padding: 0 10px;
+	@media (min-width: 980px){
+		padding: 0 140px;
+	}
+}
+.call-to-action_button{
+	margin: 22px auto 50px;
+	background-color: $green;
+	color: $white;
+	font-size: $font_xs;
+	text-transform: uppercase;
+	padding: 14px 16px;
+	border: none;
+	font-family: inherit;
+	&:hover{
+		box-shadow: 1px 1px 2px 0 $dark_gray;
+		cursor: pointer;
+	}
+}
